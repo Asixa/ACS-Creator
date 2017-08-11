@@ -1,0 +1,15 @@
+"appbuild"
+{
+	"appid"	"[Appid]"
+	"desc" "[Description]" 
+	"buildoutput" "..\output\" 
+	"contentroot" "..\content\" 
+	"setlive"	"" 
+	"preview" "0" 
+	"local"	""
+	
+	"depots"
+	{
+		"[Appid1]" "depot_build_[Appid1].vdf"
+	}
+}

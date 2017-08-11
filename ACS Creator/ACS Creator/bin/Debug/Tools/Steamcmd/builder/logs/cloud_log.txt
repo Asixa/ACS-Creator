@@ -1,0 +1,23 @@
+[2017-07-17 11:58:44] Starting sync job
+[2017-07-17 11:58:44] [AppID 7] Starting sync (init)
+[2017-07-17 11:58:48] Starting sync job
+[2017-07-17 11:58:48] [AppID 7] Starting sync (download)
+[2017-07-17 11:58:48] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2017-07-17 11:58:48] [AppID 7] Need to download file sharedconfig.vdf
+[2017-07-17 11:58:49] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudhk.blob.core.windows.net' beginning. . .
+[2017-07-17 11:58:49] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudhk.blob.core.windows.net' - Success.
+[2017-07-17 11:58:49] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2017-07-17 11:58:49] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudhk.blob.core.windows.net' beginning. . .
+[2017-07-17 11:58:49] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudhk.blob.core.windows.net' - Success.
+[2017-07-17 11:58:49] [AppID 7] Download OK for file sharedconfig.vdf
+[2017-07-17 11:58:49] [AppID 7] Download complete, result OK
+
+
+[2017-07-17 12:10:29] [U:1:306794314] [AppID 7] Init cache request complete
+[2017-07-17 12:10:29] Starting sync job
+[2017-07-17 12:10:30] Starting sync job
+[2017-07-17 12:10:30] [AppID 7] Starting sync (download)
+[2017-07-17 12:10:31] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2017-07-17 12:10:31] [AppID 7] File is in sync sharedconfig.vdf
+[2017-07-17 12:10:31] [AppID 7] Eval complete
+[2017-07-17 12:10:31] [AppID 7] Download complete in build list

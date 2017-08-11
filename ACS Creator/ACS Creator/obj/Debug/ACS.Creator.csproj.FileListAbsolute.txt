@@ -1,0 +1,43 @@
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\Languages\en-US.baml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\App.baml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\MainWindow.g.cs
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\App.g.cs
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator_Content.g.cs
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator_MarkupCompile.cache
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator_MarkupCompile.lref
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Languages\zh-CN.xaml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\ACS Creator.exe.config
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\ACS Creator.exe
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\ACS Creator.pdb
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\MahApps.Metro.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\System.Windows.Interactivity.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\MahApps.Metro.pdb
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\MahApps.Metro.xml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\Components\Editor\CodeField.g.cs
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\Components\Editor\CodeField.baml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\MainWindow.baml
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator.g.resources
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS.Creator.Properties.Resources.resources
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS.Creator.csproj.GenerateResource.Cache
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator.exe
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS Creator.pdb
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2013.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\ACS.Creator.csprojResolveAssemblyReference.cache
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\Components\ProjectView\ProjectManager.g.cs
+E:\Programing\Github\ACS-Creator\VS2.0\SteamworkGUI\obj\Debug\Components\ProjectView\ProjectManager.baml

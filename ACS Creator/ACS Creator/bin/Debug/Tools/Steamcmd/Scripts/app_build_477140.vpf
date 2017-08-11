@@ -1,0 +1,16 @@
+"appbuild"
+{
+	"appid"	"477140"
+	"desc" "中文测试" 
+	"buildoutput" "..\output\" 
+	"contentroot" "..\content\" 
+	"setlive"	"" 
+	"preview" "0" 
+	"local"	""
+	
+	"depots"
+	{
+		"477141" "depot_build_477141.vdf"
+	}
+}
+
