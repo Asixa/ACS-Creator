@@ -15,7 +15,8 @@ namespace ICSharpCode.AvalonEdit.Folding
         /// </summary>
         public void UpdateFoldings(FoldingManager manager, TextDocument document)
         {
-            var foldings = CreateNewFoldings(document, out int first_error_offset);
+            int first_error_offset;
+            var foldings = CreateNewFoldings(document, out  first_error_offset);
             manager.UpdateFoldings(foldings, first_error_offset);
         }
 

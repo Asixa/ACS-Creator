@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\
 ACS.Creator
 none
 false
 DEBUG;TRACE
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\App.xaml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\App.xaml
 61884164298
 2-1893803784
-17-924872520
-261058340789
+17-977806981
+26594621745
 Components\Editor\CodeField.xaml;Components\ErrorList\ErrorList.xaml;Components\Output\Output.xaml;Components\ProjectView\ProjectManager.xaml;Languages\en-US.xaml;MainWindow.xaml;
 
 True

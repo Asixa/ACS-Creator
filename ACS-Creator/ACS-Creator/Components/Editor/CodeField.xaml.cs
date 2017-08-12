@@ -270,14 +270,9 @@ namespace ACS.Creator.Components.Editor
         private void NewFile_Drop(object sender, DragEventArgs e)
         {
             if (!e.Data.GetDataPresent(DataFormats.FileDrop)) return;
-            if (e.Data.GetData(DataFormats.FileDrop) is System.Array array)
-            {
-                if (array.Length > 0)
-                {
-                    var msg = array.GetValue(0).ToString();
-                    Manager.New_code_field_by_path(msg);
-                }
-            }
+            var msg = ((Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();//        array.GetValue(0).ToString();
+            Manager.New_code_field_by_path(msg);
+
         }
 
 

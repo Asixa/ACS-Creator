@@ -137,3 +137,53 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\C
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Output\Output.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ErrorList\ErrorList.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ErrorList\ErrorList.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ACS Creator.exe.config
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator.exe
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator.pdb
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Languages\zh-CN.xaml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ACS Creator.exe
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ACS Creator.pdb
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\MahApps.Metro.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\System.Windows.Interactivity.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.AvalonDock.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2013.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.DataGrid.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\Xceed.Wpf.Toolkit.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.pdb
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.xml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\MahApps.Metro.pdb
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\MahApps.Metro.xml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.csprojResolveAssemblyReference.cache
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Languages\en-US.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\App.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\CodeField.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ErrorList\ErrorList.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Output\Output.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ProjectView\ProjectManager.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\MainWindow.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\App.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator_Content.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator_MarkupCompile.cache
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator_MarkupCompile.lref
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\CodeField.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ErrorList\ErrorList.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Output\Output.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\ProjectView\ProjectManager.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\MainWindow.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator.g.resources
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.Properties.Resources.resources
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.csproj.GenerateResource.Cache
