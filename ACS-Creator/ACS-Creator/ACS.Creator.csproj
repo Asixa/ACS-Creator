@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12A9479B-4807-47E2-B685-C5CEE50E5B53}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACS.Creator</RootNamespace>
+    <AssemblyName>ACS Creator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks">
+      <HintPath>..\..\..\..\..\..\WPF模板\MahApps.Metro-1.5.0\MahApps.Metro.IconPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2013, Version=2.9.0.1, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.VS2013.2.9.0.1\lib\net40-client\Xceed.Wpf.AvalonDock.Themes.VS2013.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.DataGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.1.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.1\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Components\Editor\CodeField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\ErrorList\ErrorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\Output\Output.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\ProjectView\ProjectManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Languages\en-US.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Images\Copy.png" />
+    <Resource Include="Images\Cut.png" />
+    <Resource Include="Images\Delete.png" />
+    <Resource Include="Images\ICO\add.png" />
+    <Resource Include="Images\ICO\addexception.png" />
+    <Resource Include="Images\ICO\addlocal.png" />
+    <Resource Include="Images\ICO\addnewitem.png" />
+    <Resource Include="Images\ICO\arrowdown.png" />
+    <Resource Include="Images\ICO\arrowup.png" />
+    <Resource Include="Images\ICO\assembly.png" />
+    <Resource Include="Images\ICO\assemblyexe.png" />
+    <Resource Include="Images\ICO\assemblylist.png" />
+    <Resource Include="Images\ICO\assemblylistgac.png" />
+    <Resource Include="Images\ICO\assemblymodule.png" />
+    <Resource Include="Images\ICO\assemblyreference.png" />
+    <Resource Include="Images\ICO\assemblytomodule.png" />
+    <Resource Include="Images\ICO\assemblywarning.png" />
+    <Resource Include="Images\ICO\back.png" />
+    <Resource Include="Images\ICO\binary.png" />
+    <Resource Include="Images\ICO\binaryfile.png" />
+    <Resource Include="Images\ICO\branch.png" />
+    <Resource Include="Images\ICO\break.png" />
+    <Resource Include="Images\ICO\breakpoint.png" />
+    <Resource Include="Images\ICO\breakpointmenu.png" />
+    <Resource Include="Images\ICO\breakpointswindow.png" />
+    <Resource Include="Images\ICO\callstackwindow.png" />
+    <Resource Include="Images\ICO\class.png" />
+    <Resource Include="Images\ICO\classinternal.png" />
+    <Resource Include="Images\ICO\classprivate.png" />
+    <Resource Include="Images\ICO\classprotected.png" />
+    <Resource Include="Images\ICO\classprotectedinternal.png" />
+    <Resource Include="Images\ICO\clearsearch.png" />
+    <Resource Include="Images\ICO\close.png" />
+    <Resource Include="Images\ICO\closedocuments.png" />
+    <Resource Include="Images\ICO\constructor.png" />
+    <Resource Include="Images\ICO\constructorcompilercontrolled.png" />
+    <Resource Include="Images\ICO\constructorinternal.png" />
+    <Resource Include="Images\ICO\constructorprivate.png" />
+    <Resource Include="Images\ICO\constructorprotected.png" />
+    <Resource Include="Images\ICO\constructorprotectedinternal.png" />
+    <Resource Include="Images\ICO\continuedebugging.png" />
+    <Resource Include="Images\ICO\copy.png" />
+    <Resource Include="Images\ICO\csharpfile.png" />
+    <Resource Include="Images\ICO\currentline.png" />
+    <Resource Include="Images\ICO\currentlinetoolbar.png" />
+    <Resource Include="Images\ICO\cursor.png" />
+    <Resource Include="Images\ICO\cut.png" />
+    <Resource Include="Images\ICO\delegate.png" />
+    <Resource Include="Images\ICO\delegateinternal.png" />
+    <Resource Include="Images\ICO\delegateprivate.png" />
+    <Resource Include="Images\ICO\delegateprotected.png" />
+    <Resource Include="Images\ICO\delegateprotectedinternal.png" />
+    <Resource Include="Images\ICO\delete.png" />
+    <Resource Include="Images\ICO\deleteallbreakpoints.png" />
+    <Resource Include="Images\ICO\deletehistory.png" />
+    <Resource Include="Images\ICO\disableallbreakpoints.png" />
+    <Resource Include="Images\ICO\disabledbreakpoint.png" />
+    <Resource Include="Images\ICO\disableenablebreakpoint.png" />
+    <Resource Include="Images\ICO\disassemblywindow.png" />
+    <Resource Include="Images\ICO\dnspy-big.png" />
+    <Resource Include="Images\ICO\dnspy.ico" />
+    <Resource Include="Images\ICO\draggedcurrentinstructionpointer.png" />
+    <Resource Include="Images\ICO\enableallbreakpoints.png" />
+    <Resource Include="Images\ICO\entrypoint.png" />
+    <Resource Include="Images\ICO\enum.png" />
+    <Resource Include="Images\ICO\enuminternal.png" />
+    <Resource Include="Images\ICO\enumprivate.png" />
+    <Resource Include="Images\ICO\enumprotected.png" />
+    <Resource Include="Images\ICO\enumprotectedinternal.png" />
+    <Resource Include="Images\ICO\enumvalue.png" />
+    <Resource Include="Images\ICO\enumvaluecompilercontrolled.png" />
+    <Resource Include="Images\ICO\enumvalueinternal.png" />
+    <Resource Include="Images\ICO\enumvalueprivate.png" />
+    <Resource Include="Images\ICO\enumvalueprotected.png" />
+    <Resource Include="Images\ICO\enumvalueprotectedinternal.png" />
+    <Resource Include="Images\ICO\event.png" />
+    <Resource Include="Images\ICO\eventcompilercontrolled.png" />
+    <Resource Include="Images\ICO\eventinternal.png" />
+    <Resource Include="Images\ICO\eventprivate.png" />
+    <Resource Include="Images\ICO\eventprotected.png" />
+    <Resource Include="Images\ICO\eventprotectedinternal.png" />
+    <Resource Include="Images\ICO\exception.png" />
+    <Resource Include="Images\ICO\exceptioninternal.png" />
+    <Resource Include="Images\ICO\exceptionprivate.png" />
+    <Resource Include="Images\ICO\exceptionprotected.png" />
+    <Resource Include="Images\ICO\exceptionprotectedinternal.png" />
+    <Resource Include="Images\ICO\exceptionsettings.png" />
+    <Resource Include="Images\ICO\extensionmethod.png" />
+    <Resource Include="Images\ICO\extensionmethodcompilercontrolled.png" />
+    <Resource Include="Images\ICO\extensionmethodinternal.png" />
+    <Resource Include="Images\ICO\extensionmethodprivate.png" />
+    <Resource Include="Images\ICO\extensionmethodprotected.png" />
+    <Resource Include="Images\ICO\extensionmethodprotectedinternal.png" />
+    <Resource Include="Images\ICO\field.png" />
+    <Resource Include="Images\ICO\fieldcompilercontrolled.png" />
+    <Resource Include="Images\ICO\fieldinternal.png" />
+    <Resource Include="Images\ICO\fieldprivate.png" />
+    <Resource Include="Images\ICO\fieldprotected.png" />
+    <Resource Include="Images\ICO\fieldprotectedinternal.png" />
+    <Resource Include="Images\ICO\fieldreadonly.png" />
+    <Resource Include="Images\ICO\fieldreadonlycompilercontrolled.png" />
+    <Resource Include="Images\ICO\fieldreadonlyinternal.png" />
+    <Resource Include="Images\ICO\fieldreadonlyprivate.png" />
+    <Resource Include="Images\ICO\fieldreadonlyprotected.png" />
+    <Resource Include="Images\ICO\fieldreadonlyprotectedinternal.png" />
+    <Resource Include="Images\ICO\fill.png" />
+    <Resource Include="Images\ICO\filter.png" />
+    <Resource Include="Images\ICO\find.png" />
+    <Resource Include="Images\ICO\folderclosed.png" />
+    <Resource Include="Images\ICO\folderopen.png" />
+    <Resource Include="Images\ICO\forward.png" />
+    <Resource Include="Images\ICO\fullscreen.png" />
+    <Resource Include="Images\ICO\generic.png" />
+    <Resource Include="Images\ICO\genericinternal.png" />
+    <Resource Include="Images\ICO\genericparameter.png" />
+    <Resource Include="Images\ICO\genericprivate.png" />
+    <Resource Include="Images\ICO\genericprotected.png" />
+    <Resource Include="Images\ICO\genericprotectedinternal.png" />
+    <Resource Include="Images\ICO\gotosourcecode.png" />
+    <Resource Include="Images\ICO\horizontaltabgroup.png" />
+    <Resource Include="Images\ICO\ileditor.png" />
+    <Resource Include="Images\ICO\imagefile.png" />
+    <Resource Include="Images\ICO\interface.png" />
+    <Resource Include="Images\ICO\interfaceinternal.png" />
+    <Resource Include="Images\ICO\interfaceprivate.png" />
+    <Resource Include="Images\ICO\interfaceprotected.png" />
+    <Resource Include="Images\ICO\interfaceprotectedinternal.png" />
+    <Resource Include="Images\ICO\literal.png" />
+    <Resource Include="Images\ICO\literalcompilercontrolled.png" />
+    <Resource Include="Images\ICO\literalinternal.png" />
+    <Resource Include="Images\ICO\literalprivate.png" />
+    <Resource Include="Images\ICO\literalprotected.png" />
+    <Resource Include="Images\ICO\literalprotectedinternal.png" />
+    <Resource Include="Images\ICO\local.png" />
+    <Resource Include="Images\ICO\localswindow.png" />
+    <Resource Include="Images\ICO\memorywindow.png" />
+    <Resource Include="Images\ICO\metadata.png" />
+    <Resource Include="Images\ICO\method.png" />
+    <Resource Include="Images\ICO\methodcompilercontrolled.png" />
+    <Resource Include="Images\ICO\methodinternal.png" />
+    <Resource Include="Images\ICO\methodprivate.png" />
+    <Resource Include="Images\ICO\methodprotected.png" />
+    <Resource Include="Images\ICO\methodprotectedinternal.png" />
+    <Resource Include="Images\ICO\modulefile.png" />
+    <Resource Include="Images\ICO\modulereference.png" />
+    <Resource Include="Images\ICO\moduleswindow.png" />
+    <Resource Include="Images\ICO\moduletoassembly.png" />
+    <Resource Include="Images\ICO\namespace.png" />
+    <Resource Include="Images\ICO\newassembly.png" />
+    <Resource Include="Images\ICO\newassemblymodule.png" />
+    <Resource Include="Images\ICO\newbinary.png" />
+    <Resource Include="Images\ICO\newclass.png" />
+    <Resource Include="Images\ICO\newevent.png" />
+    <Resource Include="Images\ICO\newfield.png" />
+    <Resource Include="Images\ICO\newimage.png" />
+    <Resource Include="Images\ICO\newmethod.png" />
+    <Resource Include="Images\ICO\newproperty.png" />
+    <Resource Include="Images\ICO\newresource.png" />
+    <Resource Include="Images\ICO\newresourcesfile.png" />
+    <Resource Include="Images\ICO\newwindow.png" />
+    <Resource Include="Images\ICO\nop.png" />
+    <Resource Include="Images\ICO\ok.png" />
+    <Resource Include="Images\ICO\onelevelup.png" />
+    <Resource Include="Images\ICO\open.png" />
+    <Resource Include="Images\ICO\operator.png" />
+    <Resource Include="Images\ICO\operatorcompilercontrolled.png" />
+    <Resource Include="Images\ICO\operatorinternal.png" />
+    <Resource Include="Images\ICO\operatorprivate.png" />
+    <Resource Include="Images\ICO\operatorprotected.png" />
+    <Resource Include="Images\ICO\operatorprotectedinternal.png" />
+    <Resource Include="Images\ICO\parameter.png" />
+    <Resource Include="Images\ICO\paste.png" />
+    <Resource Include="Images\ICO\pinvokemethod.png" />
+    <Resource Include="Images\ICO\pinvokemethodcompilercontrolled.png" />
+    <Resource Include="Images\ICO\pinvokemethodinternal.png" />
+    <Resource Include="Images\ICO\pinvokemethodprivate.png" />
+    <Resource Include="Images\ICO\pinvokemethodprotected.png" />
+    <Resource Include="Images\ICO\pinvokemethodprotectedinternal.png" />
+    <Resource Include="Images\ICO\process.png" />
+    <Resource Include="Images\ICO\property.png" />
+    <Resource Include="Images\ICO\propertycompilercontrolled.png" />
+    <Resource Include="Images\ICO\propertyinternal.png" />
+    <Resource Include="Images\ICO\propertyprivate.png" />
+    <Resource Include="Images\ICO\propertyprotected.png" />
+    <Resource Include="Images\ICO\propertyprotectedinternal.png" />
+    <Resource Include="Images\ICO\questionmark.png" />
+    <Resource Include="Images\ICO\redo.png" />
+    <Resource Include="Images\ICO\referencefolderclosed.png" />
+    <Resource Include="Images\ICO\referencefolderopen.png" />
+    <Resource Include="Images\ICO\refresh.png" />
+    <Resource Include="Images\ICO\removecommand.png" />
+    <Resource Include="Images\ICO\resource.png" />
+    <Resource Include="Images\ICO\resourcesfile.png" />
+    <Resource Include="Images\ICO\restartprocess.png" />
+    <Resource Include="Images\ICO\save.png" />
+    <Resource Include="Images\ICO\saveall.png" />
+    <Resource Include="Images\ICO\search.png" />
+    <Resource Include="Images\ICO\select.png" />
+    <Resource Include="Images\ICO\selectedreturnline.png" />
+    <Resource Include="Images\ICO\setnextstatement.png" />
+    <Resource Include="Images\ICO\settings.png" />
+    <Resource Include="Images\ICO\startdebugging.png" />
+    <Resource Include="Images\ICO\startwithoutdebugging.png" />
+    <Resource Include="Images\ICO\staticclass.png" />
+    <Resource Include="Images\ICO\staticevent.png" />
+    <Resource Include="Images\ICO\staticeventcompilercontrolled.png" />
+    <Resource Include="Images\ICO\staticeventinternal.png" />
+    <Resource Include="Images\ICO\staticeventprivate.png" />
+    <Resource Include="Images\ICO\staticeventprotected.png" />
+    <Resource Include="Images\ICO\staticeventprotectedinternal.png" />
+    <Resource Include="Images\ICO\staticmethod.png" />
+    <Resource Include="Images\ICO\staticmethodcompilercontrolled.png" />
+    <Resource Include="Images\ICO\staticmethodinternal.png" />
+    <Resource Include="Images\ICO\staticmethodprivate.png" />
+    <Resource Include="Images\ICO\staticmethodprotected.png" />
+    <Resource Include="Images\ICO\staticmethodprotectedinternal.png" />
+    <Resource Include="Images\ICO\staticproperty.png" />
+    <Resource Include="Images\ICO\staticpropertycompilercontrolled.png" />
+    <Resource Include="Images\ICO\staticpropertyinternal.png" />
+    <Resource Include="Images\ICO\staticpropertyprivate.png" />
+    <Resource Include="Images\ICO\staticpropertyprotected.png" />
+    <Resource Include="Images\ICO\staticpropertyprotectedinternal.png" />
+    <Resource Include="Images\ICO\statuserror.png" />
+    <Resource Include="Images\ICO\stepinto.png" />
+    <Resource Include="Images\ICO\stepout.png" />
+    <Resource Include="Images\ICO\stepover.png" />
+    <Resource Include="Images\ICO\stopprocess.png" />
+    <Resource Include="Images\ICO\strings.png" />
+    <Resource Include="Images\ICO\struct.png" />
+    <Resource Include="Images\ICO\structinternal.png" />
+    <Resource Include="Images\ICO\structprivate.png" />
+    <Resource Include="Images\ICO\structprotected.png" />
+    <Resource Include="Images\ICO\structprotectedinternal.png" />
+    <Resource Include="Images\ICO\subtypes.png" />
+    <Resource Include="Images\ICO\subtypesopen.png" />
+    <Resource Include="Images\ICO\supertypes.png" />
+    <Resource Include="Images\ICO\supertypesopen.png" />
+    <Resource Include="Images\ICO\textfile.png" />
+    <Resource Include="Images\ICO\thread.png" />
+    <Resource Include="Images\ICO\touncondbranch.png" />
+    <Resource Include="Images\ICO\undo.png" />
+    <Resource Include="Images\ICO\undocheckboxlist.png" />
+    <Resource Include="Images\ICO\userdefineddatatype.png" />
+    <Resource Include="Images\ICO\verticaltabgroup.png" />
+    <Resource Include="Images\ICO\viewcode.png" />
+    <Resource Include="Images\ICO\virtualevent.png" />
+    <Resource Include="Images\ICO\virtualeventcompilercontrolled.png" />
+    <Resource Include="Images\ICO\virtualeventinternal.png" />
+    <Resource Include="Images\ICO\virtualeventprivate.png" />
+    <Resource Include="Images\ICO\virtualeventprotected.png" />
+    <Resource Include="Images\ICO\virtualeventprotectedinternal.png" />
+    <Resource Include="Images\ICO\virtualmethod.png" />
+    <Resource Include="Images\ICO\virtualmethodcompilercontrolled.png" />
+    <Resource Include="Images\ICO\virtualmethodinternal.png" />
+    <Resource Include="Images\ICO\virtualmethodprivate.png" />
+    <Resource Include="Images\ICO\virtualmethodprotected.png" />
+    <Resource Include="Images\ICO\virtualmethodprotectedinternal.png" />
+    <Resource Include="Images\ICO\virtualproperty.png" />
+    <Resource Include="Images\ICO\virtualpropertycompilercontrolled.png" />
+    <Resource Include="Images\ICO\virtualpropertyinternal.png" />
+    <Resource Include="Images\ICO\virtualpropertyprivate.png" />
+    <Resource Include="Images\ICO\virtualpropertyprotected.png" />
+    <Resource Include="Images\ICO\virtualpropertyprotectedinternal.png" />
+    <Resource Include="Images\ICO\visualbasicfile.png" />
+    <Resource Include="Images\ICO\watch.png" />
+    <Resource Include="Images\ICO\wordwrap.png" />
+    <Resource Include="Images\ICO\xamlfile.png" />
+    <Resource Include="Images\ICO\xmlfile.png" />
+    <Resource Include="Images\ICO\xsdfile.png" />
+    <Resource Include="Images\ICO\xsltfile.png" />
+    <Resource Include="Images\Open.png" />
+    <Resource Include="Images\Paste.png" />
+    <Resource Include="Images\Redo.png" />
+    <Resource Include="Images\run.png" />
+    <Resource Include="Images\Save.png" />
+    <Resource Include="Images\SplashScreen.png" />
+    <Resource Include="Images\standard.png" />
+    <Resource Include="Images\UI\add.png" />
+    <Resource Include="Images\UI\addexception.png" />
+    <Resource Include="Images\UI\addlocal.png" />
+    <Resource Include="Images\UI\addnewitem.png" />
+    <Resource Include="Images\UI\arrowdown.png" />
+    <Resource Include="Images\UI\arrowup.png" />
+    <Resource Include="Images\UI\assembly.png" />
+    <Resource Include="Images\UI\assemblyexe.png" />
+    <Resource Include="Images\UI\assemblylist.png" />
+    <Resource Include="Images\UI\assemblylistgac.png" />
+    <Resource Include="Images\UI\assemblymodule.png" />
+    <Resource Include="Images\UI\assemblyreference.png" />
+    <Resource Include="Images\UI\assemblytomodule.png" />
+    <Resource Include="Images\UI\assemblywarning.png" />
+    <Resource Include="Images\UI\back.png" />
+    <Resource Include="Images\UI\binary.png" />
+    <Resource Include="Images\UI\binaryfile.png" />
+    <Resource Include="Images\UI\branch.png" />
+    <Resource Include="Images\UI\break.png" />
+    <Resource Include="Images\UI\breakpoint.png" />
+    <Resource Include="Images\UI\breakpointmenu.png" />
+    <Resource Include="Images\UI\breakpointswindow.png" />
+    <Resource Include="Images\UI\callstackwindow.png" />
+    <Resource Include="Images\UI\class.png" />
+    <Resource Include="Images\UI\classinternal.png" />
+    <Resource Include="Images\UI\classprivate.png" />
+    <Resource Include="Images\UI\classprotected.png" />
+    <Resource Include="Images\UI\classprotectedinternal.png" />
+    <Resource Include="Images\UI\clearsearch.png" />
+    <Resource Include="Images\UI\close.png" />
+    <Resource Include="Images\UI\closedocuments.png" />
+    <Resource Include="Images\UI\constructor.png" />
+    <Resource Include="Images\UI\constructorcompilercontrolled.png" />
+    <Resource Include="Images\UI\constructorinternal.png" />
+    <Resource Include="Images\UI\constructorprivate.png" />
+    <Resource Include="Images\UI\constructorprotected.png" />
+    <Resource Include="Images\UI\constructorprotectedinternal.png" />
+    <Resource Include="Images\UI\continuedebugging.png" />
+    <Resource Include="Images\UI\copy.png" />
+    <Resource Include="Images\UI\csharpfile.png" />
+    <Resource Include="Images\UI\currentline.png" />
+    <Resource Include="Images\UI\currentlinetoolbar.png" />
+    <Resource Include="Images\UI\cursor.png" />
+    <Resource Include="Images\UI\cut.png" />
+    <Resource Include="Images\UI\delegate.png" />
+    <Resource Include="Images\UI\delegateinternal.png" />
+    <Resource Include="Images\UI\delegateprivate.png" />
+    <Resource Include="Images\UI\delegateprotected.png" />
+    <Resource Include="Images\UI\delegateprotectedinternal.png" />
+    <Resource Include="Images\UI\delete.png" />
+    <Resource Include="Images\UI\deleteallbreakpoints.png" />
+    <Resource Include="Images\UI\deletehistory.png" />
+    <Resource Include="Images\UI\disableallbreakpoints.png" />
+    <Resource Include="Images\UI\disabledbreakpoint.png" />
+    <Resource Include="Images\UI\disableenablebreakpoint.png" />
+    <Resource Include="Images\UI\disassemblywindow.png" />
+    <Resource Include="Images\UI\dnspy-big.png" />
+    <Resource Include="Images\UI\dnspy.ico" />
+    <Resource Include="Images\UI\draggedcurrentinstructionpointer.png" />
+    <Resource Include="Images\UI\enableallbreakpoints.png" />
+    <Resource Include="Images\UI\entrypoint.png" />
+    <Resource Include="Images\UI\enum.png" />
+    <Resource Include="Images\UI\enuminternal.png" />
+    <Resource Include="Images\UI\enumprivate.png" />
+    <Resource Include="Images\UI\enumprotected.png" />
+    <Resource Include="Images\UI\enumprotectedinternal.png" />
+    <Resource Include="Images\UI\enumvalue.png" />
+    <Resource Include="Images\UI\enumvaluecompilercontrolled.png" />
+    <Resource Include="Images\UI\enumvalueinternal.png" />
+    <Resource Include="Images\UI\enumvalueprivate.png" />
+    <Resource Include="Images\UI\enumvalueprotected.png" />
+    <Resource Include="Images\UI\enumvalueprotectedinternal.png" />
+    <Resource Include="Images\UI\event.png" />
+    <Resource Include="Images\UI\eventcompilercontrolled.png" />
+    <Resource Include="Images\UI\eventinternal.png" />
+    <Resource Include="Images\UI\eventprivate.png" />
+    <Resource Include="Images\UI\eventprotected.png" />
+    <Resource Include="Images\UI\eventprotectedinternal.png" />
+    <Resource Include="Images\UI\exception.png" />
+    <Resource Include="Images\UI\exceptioninternal.png" />
+    <Resource Include="Images\UI\exceptionprivate.png" />
+    <Resource Include="Images\UI\exceptionprotected.png" />
+    <Resource Include="Images\UI\exceptionprotectedinternal.png" />
+    <Resource Include="Images\UI\exceptionsettings.png" />
+    <Resource Include="Images\UI\extensionmethod.png" />
+    <Resource Include="Images\UI\extensionmethodcompilercontrolled.png" />
+    <Resource Include="Images\UI\extensionmethodinternal.png" />
+    <Resource Include="Images\UI\extensionmethodprivate.png" />
+    <Resource Include="Images\UI\extensionmethodprotected.png" />
+    <Resource Include="Images\UI\extensionmethodprotectedinternal.png" />
+    <Resource Include="Images\UI\field.png" />
+    <Resource Include="Images\UI\fieldcompilercontrolled.png" />
+    <Resource Include="Images\UI\fieldinternal.png" />
+    <Resource Include="Images\UI\fieldprivate.png" />
+    <Resource Include="Images\UI\fieldprotected.png" />
+    <Resource Include="Images\UI\fieldprotectedinternal.png" />
+    <Resource Include="Images\UI\fieldreadonly.png" />
+    <Resource Include="Images\UI\fieldreadonlycompilercontrolled.png" />
+    <Resource Include="Images\UI\fieldreadonlyinternal.png" />
+    <Resource Include="Images\UI\fieldreadonlyprivate.png" />
+    <Resource Include="Images\UI\fieldreadonlyprotected.png" />
+    <Resource Include="Images\UI\fieldreadonlyprotectedinternal.png" />
+    <Resource Include="Images\UI\fill.png" />
+    <Resource Include="Images\UI\filter.png" />
+    <Resource Include="Images\UI\find.png" />
+    <Resource Include="Images\UI\folderclosed.png" />
+    <Resource Include="Images\UI\folderopen.png" />
+    <Resource Include="Images\UI\forward.png" />
+    <Resource Include="Images\UI\fullscreen.png" />
+    <Resource Include="Images\UI\generic.png" />
+    <Resource Include="Images\UI\genericinternal.png" />
+    <Resource Include="Images\UI\genericparameter.png" />
+    <Resource Include="Images\UI\genericprivate.png" />
+    <Resource Include="Images\UI\genericprotected.png" />
+    <Resource Include="Images\UI\genericprotectedinternal.png" />
+    <Resource Include="Images\UI\gotosourcecode.png" />
+    <Resource Include="Images\UI\horizontaltabgroup.png" />
+    <Resource Include="Images\UI\ileditor.png" />
+    <Resource Include="Images\UI\imagefile.png" />
+    <Resource Include="Images\UI\interface.png" />
+    <Resource Include="Images\UI\interfaceinternal.png" />
+    <Resource Include="Images\UI\interfaceprivate.png" />
+    <Resource Include="Images\UI\interfaceprotected.png" />
+    <Resource Include="Images\UI\interfaceprotectedinternal.png" />
+    <Resource Include="Images\UI\literal.png" />
+    <Resource Include="Images\UI\literalcompilercontrolled.png" />
+    <Resource Include="Images\UI\literalinternal.png" />
+    <Resource Include="Images\UI\literalprivate.png" />
+    <Resource Include="Images\UI\literalprotected.png" />
+    <Resource Include="Images\UI\literalprotectedinternal.png" />
+    <Resource Include="Images\UI\local.png" />
+    <Resource Include="Images\UI\localswindow.png" />
+    <Resource Include="Images\UI\memorywindow.png" />
+    <Resource Include="Images\UI\metadata.png" />
+    <Resource Include="Images\UI\method.png" />
+    <Resource Include="Images\UI\methodcompilercontrolled.png" />
+    <Resource Include="Images\UI\methodinternal.png" />
+    <Resource Include="Images\UI\methodprivate.png" />
+    <Resource Include="Images\UI\methodprotected.png" />
+    <Resource Include="Images\UI\methodprotectedinternal.png" />
+    <Resource Include="Images\UI\modulefile.png" />
+    <Resource Include="Images\UI\modulereference.png" />
+    <Resource Include="Images\UI\moduleswindow.png" />
+    <Resource Include="Images\UI\moduletoassembly.png" />
+    <Resource Include="Images\UI\namespace.png" />
+    <Resource Include="Images\UI\newassembly.png" />
+    <Resource Include="Images\UI\newassemblymodule.png" />
+    <Resource Include="Images\UI\newbinary.png" />
+    <Resource Include="Images\UI\newclass.png" />
+    <Resource Include="Images\UI\newevent.png" />
+    <Resource Include="Images\UI\newfield.png" />
+    <Resource Include="Images\UI\newimage.png" />
+    <Resource Include="Images\UI\newmethod.png" />
+    <Resource Include="Images\UI\newproperty.png" />
+    <Resource Include="Images\UI\newresource.png" />
+    <Resource Include="Images\UI\newresourcesfile.png" />
+    <Resource Include="Images\UI\newwindow.png" />
+    <Resource Include="Images\UI\nop.png" />
+    <Resource Include="Images\UI\ok.png" />
+    <Resource Include="Images\UI\onelevelup.png" />
+    <Resource Include="Images\UI\open.png" />
+    <Resource Include="Images\UI\operator.png" />
+    <Resource Include="Images\UI\operatorcompilercontrolled.png" />
+    <Resource Include="Images\UI\operatorinternal.png" />
+    <Resource Include="Images\UI\operatorprivate.png" />
+    <Resource Include="Images\UI\operatorprotected.png" />
+    <Resource Include="Images\UI\operatorprotectedinternal.png" />
+    <Resource Include="Images\UI\parameter.png" />
+    <Resource Include="Images\UI\paste.png" />
+    <Resource Include="Images\UI\pinvokemethod.png" />
+    <Resource Include="Images\UI\pinvokemethodcompilercontrolled.png" />
+    <Resource Include="Images\UI\pinvokemethodinternal.png" />
+    <Resource Include="Images\UI\pinvokemethodprivate.png" />
+    <Resource Include="Images\UI\pinvokemethodprotected.png" />
+    <Resource Include="Images\UI\pinvokemethodprotectedinternal.png" />
+    <Resource Include="Images\UI\process.png" />
+    <Resource Include="Images\UI\property.png" />
+    <Resource Include="Images\UI\propertycompilercontrolled.png" />
+    <Resource Include="Images\UI\propertyinternal.png" />
+    <Resource Include="Images\UI\propertyprivate.png" />
+    <Resource Include="Images\UI\propertyprotected.png" />
+    <Resource Include="Images\UI\propertyprotectedinternal.png" />
+    <Resource Include="Images\UI\questionmark.png" />
+    <Resource Include="Images\UI\redo.png" />
+    <Resource Include="Images\UI\referencefolderclosed.png" />
+    <Resource Include="Images\UI\referencefolderopen.png" />
+    <Resource Include="Images\UI\refresh.png" />
+    <Resource Include="Images\UI\removecommand.png" />
+    <Resource Include="Images\UI\resource.png" />
+    <Resource Include="Images\UI\resourcesfile.png" />
+    <Resource Include="Images\UI\restartprocess.png" />
+    <Resource Include="Images\UI\save.png" />
+    <Resource Include="Images\UI\saveall.png" />
+    <Resource Include="Images\UI\search.png" />
+    <Resource Include="Images\UI\select.png" />
+    <Resource Include="Images\UI\selectedreturnline.png" />
+    <Resource Include="Images\UI\setnextstatement.png" />
+    <Resource Include="Images\UI\settings.png" />
+    <Resource Include="Images\UI\startdebugging.png" />
+    <Resource Include="Images\UI\startwithoutdebugging.png" />
+    <Resource Include="Images\UI\staticclass.png" />
+    <Resource Include="Images\UI\staticevent.png" />
+    <Resource Include="Images\UI\staticeventcompilercontrolled.png" />
+    <Resource Include="Images\UI\staticeventinternal.png" />
+    <Resource Include="Images\UI\staticeventprivate.png" />
+    <Resource Include="Images\UI\staticeventprotected.png" />
+    <Resource Include="Images\UI\staticeventprotectedinternal.png" />
+    <Resource Include="Images\UI\staticmethod.png" />
+    <Resource Include="Images\UI\staticmethodcompilercontrolled.png" />
+    <Resource Include="Images\UI\staticmethodinternal.png" />
+    <Resource Include="Images\UI\staticmethodprivate.png" />
+    <Resource Include="Images\UI\staticmethodprotected.png" />
+    <Resource Include="Images\UI\staticmethodprotectedinternal.png" />
+    <Resource Include="Images\UI\staticproperty.png" />
+    <Resource Include="Images\UI\staticpropertycompilercontrolled.png" />
+    <Resource Include="Images\UI\staticpropertyinternal.png" />
+    <Resource Include="Images\UI\staticpropertyprivate.png" />
+    <Resource Include="Images\UI\staticpropertyprotected.png" />
+    <Resource Include="Images\UI\staticpropertyprotectedinternal.png" />
+    <Resource Include="Images\UI\statuserror.png" />
+    <Resource Include="Images\UI\stepinto.png" />
+    <Resource Include="Images\UI\stepout.png" />
+    <Resource Include="Images\UI\stepover.png" />
+    <Resource Include="Images\UI\stopprocess.png" />
+    <Resource Include="Images\UI\strings.png" />
+    <Resource Include="Images\UI\struct.png" />
+    <Resource Include="Images\UI\structinternal.png" />
+    <Resource Include="Images\UI\structprivate.png" />
+    <Resource Include="Images\UI\structprotected.png" />
+    <Resource Include="Images\UI\structprotectedinternal.png" />
+    <Resource Include="Images\UI\subtypes.png" />
+    <Resource Include="Images\UI\subtypesopen.png" />
+    <Resource Include="Images\UI\supertypes.png" />
+    <Resource Include="Images\UI\supertypesopen.png" />
+    <Resource Include="Images\UI\textfile.png" />
+    <Resource Include="Images\UI\thread.png" />
+    <Resource Include="Images\UI\touncondbranch.png" />
+    <Resource Include="Images\UI\undo.png" />
+    <Resource Include="Images\UI\undocheckboxlist.png" />
+    <Resource Include="Images\UI\userdefineddatatype.png" />
+    <Resource Include="Images\UI\verticaltabgroup.png" />
+    <Resource Include="Images\UI\viewcode.png" />
+    <Resource Include="Images\UI\virtualevent.png" />
+    <Resource Include="Images\UI\virtualeventcompilercontrolled.png" />
+    <Resource Include="Images\UI\virtualeventinternal.png" />
+    <Resource Include="Images\UI\virtualeventprivate.png" />
+    <Resource Include="Images\UI\virtualeventprotected.png" />
+    <Resource Include="Images\UI\virtualeventprotectedinternal.png" />
+    <Resource Include="Images\UI\virtualmethod.png" />
+    <Resource Include="Images\UI\virtualmethodcompilercontrolled.png" />
+    <Resource Include="Images\UI\virtualmethodinternal.png" />
+    <Resource Include="Images\UI\virtualmethodprivate.png" />
+    <Resource Include="Images\UI\virtualmethodprotected.png" />
+    <Resource Include="Images\UI\virtualmethodprotectedinternal.png" />
+    <Resource Include="Images\UI\virtualproperty.png" />
+    <Resource Include="Images\UI\virtualpropertycompilercontrolled.png" />
+    <Resource Include="Images\UI\virtualpropertyinternal.png" />
+    <Resource Include="Images\UI\virtualpropertyprivate.png" />
+    <Resource Include="Images\UI\virtualpropertyprotected.png" />
+    <Resource Include="Images\UI\virtualpropertyprotectedinternal.png" />
+    <Resource Include="Images\UI\visualbasicfile.png" />
+    <Resource Include="Images\UI\watch.png" />
+    <Resource Include="Images\UI\wordwrap.png" />
+    <Resource Include="Images\UI\xamlfile.png" />
+    <Resource Include="Images\UI\xmlfile.png" />
+    <Resource Include="Images\UI\xsdfile.png" />
+    <Resource Include="Images\UI\xsltfile.png" />
+    <Resource Include="Images\Undo.png" />
+    <Resource Include="Images\WordWrap.png" />
+    <Resource Include="Images\zen-icons-pen.png" />
+    <Content Include="Images\图片1.svg" />
+    <Resource Include="Images\未标题-1-1.png" />
+    <Content Include="Languages\zh-CN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Editor\AbstractFoldingStrategy.cs" />
+    <Compile Include="Components\Editor\BraceFoldingStrategy.cs" />
+    <Compile Include="Components\Editor\CodeField.xaml.cs">
+      <DependentUpon>CodeField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Editor\Completion\MyCompletionData.cs" />
+    <Compile Include="Components\ErrorList\ErrorList.xaml.cs">
+      <DependentUpon>ErrorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Output\Output.xaml.cs">
+      <DependentUpon>Output.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ProjectView\ProjectManager.xaml.cs">
+      <DependentUpon>ProjectManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Images\SplashScreen.psd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj">
+      <Project>{6c55b776-26d4-4db3-a6ab-87e783b2f3d1}</Project>
+      <Name>ICSharpCode.AvalonEdit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

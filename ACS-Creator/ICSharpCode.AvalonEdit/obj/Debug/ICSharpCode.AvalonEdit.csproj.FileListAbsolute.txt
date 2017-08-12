@@ -1,0 +1,48 @@
+E:\Programing\C#\WPF模板\AvalonEdit\bin\Debug\ICSharpCode.AvalonEdit.xml
+E:\Programing\C#\WPF模板\AvalonEdit\bin\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\C#\WPF模板\AvalonEdit\bin\Debug\ICSharpCode.AvalonEdit.pdb
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\CompletionList.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\InsightWindow.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\Search\SearchPanel.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\Search\DropDownButton.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\TextEditor.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\themes\generic.baml
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.g.resources
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb
+E:\Programing\C#\WPF模板\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\bin\Debug\ICSharpCode.AvalonEdit.xml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\bin\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\bin\Debug\ICSharpCode.AvalonEdit.pdb
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\CompletionList.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\InsightWindow.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\Search\SearchPanel.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\Search\DropDownButton.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\TextEditor.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\themes\generic.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.g.resources
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.xml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.pdb
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\CompletionList.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\InsightWindow.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\Search\SearchPanel.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\Search\DropDownButton.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\TextEditor.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\themes\generic.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.g.resources
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb
