@@ -11,5 +11,8 @@
         <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Colors.xaml" />
         <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/VS/Styles.xaml" />
     </ResourceDictionary.MergedDictionaries>
-    <sys:String x:Key="MainwindowTitle">VS2.0</sys:String>
+    <sys:String x:Key="MainwindowTitle">ACS 创造者</sys:String>
+    <sys:String x:Key="output_writing">正在写入</sys:String>
+    <sys:String x:Key="output_opening">正在打开</sys:String>
+    <sys:String x:Key="output_closed">外部程序已退出</sys:String>
 </ResourceDictionary>

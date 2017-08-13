@@ -2,6 +2,7 @@
 using System.Windows;
 using ACS.Creator.Components.ProjectView;
 using Xceed.Wpf.AvalonDock.Layout;
+using System.Windows.Media;
 
 namespace ACS.Creator
 {
@@ -78,5 +79,14 @@ namespace ACS.Creator
             anchorable.AutoHideHeight = 140;
             anchorable.AutoHideMinHeight = 100;
         }
+
+        public static void Set_statusbar(string t,string color="")
+        {
+            MainWindow.instance.Status.Text = t;
+            if(color!="")
+            MainWindow.instance.StatusBar.Background = (Brush)(new BrushConverter().ConvertFrom(color));
+        }
+
+
     }
 }

@@ -14,7 +14,9 @@
 
 
     <sys:String x:Key="MainwindowTitle">ACS Creator</sys:String>
-
-
+    <sys:String x:Key="output_writing">Writing</sys:String>
+    <sys:String x:Key="output_opening">Opening</sys:String>
+    <sys:String x:Key="output_closed">Program closed</sys:String>
+    <sys:String x:Key="statusbar_ready">Ready</sys:String>
 
 </ResourceDictionary>

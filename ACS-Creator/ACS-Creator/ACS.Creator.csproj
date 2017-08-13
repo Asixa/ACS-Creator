@@ -103,6 +103,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Components\Editor\FindReplace\FindReplaceDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Components\ErrorList\ErrorList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -687,6 +691,10 @@
       <DependentUpon>CodeField.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\Editor\Completion\MyCompletionData.cs" />
+    <Compile Include="Components\Editor\FindReplace\FindReplaceDialog.xaml.cs">
+      <DependentUpon>FindReplaceDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Editor\HighlightLine\HighlightCurrentLineBackgroundRenderer.cs" />
     <Compile Include="Components\ErrorList\ErrorList.xaml.cs">
       <DependentUpon>ErrorList.xaml</DependentUpon>
     </Compile>

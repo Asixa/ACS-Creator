@@ -187,3 +187,6 @@ F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\MainWindow.baml
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator.g.resources
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.Properties.Resources.resources
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.csproj.GenerateResource.Cache
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.g.cs
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.baml
+F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -49,7 +49,6 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\
 F:\Github\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.xml
 F:\Github\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.dll
 F:\Github\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.pdb
-F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref
@@ -62,3 +61,4 @@ F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\themes\generi
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.g.resources
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb
+F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache

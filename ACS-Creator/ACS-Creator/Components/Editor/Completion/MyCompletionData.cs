@@ -28,9 +28,10 @@ namespace ACS.Creator.Components.Editor.Completion
     /// </summary>
     public class MyCompletionData : ICompletionData
     {
-        public MyCompletionData(string text)
+        public MyCompletionData(string text,string des="")
         {
             this.Text = text;
+            description = des;
         }
 
         public System.Windows.Media.ImageSource Image
@@ -46,9 +47,19 @@ namespace ACS.Creator.Components.Editor.Completion
             get { return this.Text; }
         }
 
+        private string description;
         public object Description
         {
-            get { return "Description for " + this.Text; }
+            get {
+                if (description == "")
+                {
+                    return "Description for " + this.Text;
+                }
+                else
+                {
+                    return description;
+                }
+            }
         }
 
         public double Priority { get { return 0; } }

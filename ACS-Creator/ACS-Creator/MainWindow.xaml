@@ -136,7 +136,7 @@
             <CheckBox/>
         </ToolBar>
 
-        <StatusBar Height="23" DockPanel.Dock="Bottom" Background="#FF007ACC" >
+        <StatusBar Name="StatusBar" Height="23" DockPanel.Dock="Bottom" Background="#FF007ACC" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock x:Name="Status" Foreground="White" Width="245"><Run Text="就绪:"/></TextBlock>

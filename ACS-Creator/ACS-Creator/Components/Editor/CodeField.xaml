@@ -1,23 +1,26 @@
-﻿<UserControl x:Class="ACS.Creator.Components.Editor.CodeField"
+﻿<UserControl
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ACS.Creator.Components.Editor"
              xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+             xmlns:FindReplace="clr-namespace:ACS.Creator.Components.Editor.FindReplace" x:Class="ACS.Creator.Components.Editor.CodeField"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
              Drop="NewFile_Drop"
              >
     <Grid>
-        <avalonEdit:TextEditor Name="Editor"
-                               Background="#FF1E1E1E" 
-                               LineNumbersForeground="#FF007ACC"  
-                               ShowLineNumbers="True" 
-                               HorizontalScrollBarVisibility="Auto" 
-                               VerticalScrollBarVisibility="Auto"
-                               Foreground="White"
-                               SyntaxHighlighting="ACS" KeyDown="Editor_KeyDown" KeyUp="Editor_KeyUp" PreviewMouseWheel="Editor_PreviewMouseWheel" FontFamily="Consolas" FontSize="18"/>
+        <avalonEdit:TextEditor x:Name="Editor"
+			Background="#FF1E1E1E" 
+			LineNumbersForeground="#FF007ACC"  
+			ShowLineNumbers="True" 
+			HorizontalScrollBarVisibility="Auto" 
+			VerticalScrollBarVisibility="Auto"
+			Foreground="White"
+			SyntaxHighlighting="ACS" KeyDown="Editor_KeyDown" KeyUp="Editor_KeyUp" PreviewMouseWheel="Editor_PreviewMouseWheel" FontFamily="Consolas" FontSize="18"/>
+
+        <FindReplace:FindReplaceDialog Visibility="Hidden" x:Name="Search" HorizontalAlignment="Right" Height="139" VerticalAlignment="Top" Width="243" Background="#FF2D2D30"/>
 
     </Grid>
 </UserControl>

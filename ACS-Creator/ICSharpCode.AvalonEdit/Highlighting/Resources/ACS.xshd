@@ -12,7 +12,7 @@
 	<Color name="NumberLiteral" foreground="#FFB5CEA8" exampleText="3.1415f"/>
 	<Color name="ThisOrBaseReference" fontWeight="bold" exampleText="this.Do(); base.Do();"/>
 	<Color name="NullOrValueKeywords" fontWeight="bold" exampleText="if (value == null)"/>
-	<Color name="Keywords" fontWeight="bold" foreground="Blue" exampleText="if (a) {} else {}"/>
+	<Color name="Keywords" fontWeight="bold" foreground="#569cd6" exampleText="if (a) {} else {}"/>
 	<Color name="ContextKeywords" foreground="Navy" exampleText="var a = from x in y select z;"/>
 	<Color name="ExceptionKeywords" fontWeight="bold" foreground="Teal" exampleText="try {} catch {} finally {}"/>
 	<Color name="CheckedKeyword" fontWeight="bold" foreground="DarkGray" exampleText="checked {}"/>
@@ -23,7 +23,7 @@
 	<Color name="Visibility" fontWeight="bold" foreground="Blue" exampleText="public override void ToString();"/>
 	<Color name="NamespaceKeywords" fontWeight="bold" foreground="Green" exampleText="namespace A.B { using System; }"/>
 	<Color name="GetSetAddRemove" foreground="SaddleBrown" exampleText="int Prop { get; set; }"/>
-	<Color name="TrueFalse" fontWeight="bold" foreground="DarkCyan" exampleText="b = false; a = true;" />
+	<Color name="TrueFalse" fontWeight="bold" foreground="#a5ea4c" exampleText="b = false; a = true;" />
 	<Color name="TypeKeywords" fontWeight="bold" foreground="DarkCyan" exampleText="if (x is int) { a = x as int; type = typeof(int); size = sizeof(int); c = new object(); }"/>
 
 

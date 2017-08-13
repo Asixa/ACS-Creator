@@ -78,13 +78,15 @@ namespace ICSharpCode.AvalonEdit.CodeCompletion
 					toolTip.Content = description;
 				}
 				toolTip.IsOpen = true;
+                Show();// Asixa added it here
 			} else {
 				toolTip.IsOpen = false;
 			}
-		}
-		#endregion
-		
-		void completionList_InsertionRequested(object sender, EventArgs e)
+
+        }
+        #endregion
+
+        void completionList_InsertionRequested(object sender, EventArgs e)
 		{
 			Close();
 			// The window must close before Complete() is called.
@@ -129,9 +131,29 @@ namespace ICSharpCode.AvalonEdit.CodeCompletion
 		{
 			base.OnKeyDown(e);
 			if (!e.Handled) {
-				completionList.HandleKey(e);
-			}
-		}
+			    completionList.HandleKey(e);
+                           
+                //*************** Hide the window if there is no result --Asixa
+			    if (completionList.ListBox.ActualHeight < 10)
+			    {
+			        Hide();
+                    if(toolTip!=null)
+			        toolTip.IsOpen = false;
+                }
+			    else
+			    {
+			        try
+			        {
+			            Show();
+			        }
+			        catch 
+			        {
+                        // who cares
+			        }
+			    }
+                //***************
+            }
+        }
 		
 		void textArea_PreviewTextInput(object sender, TextCompositionEventArgs e)
 		{

@@ -8,6 +8,6 @@
              d:DesignHeight="300" d:DesignWidth="300"
              >
     <Grid>
-        <TextBox IsReadOnly="True"  Text="Nothing here" />
+        <TextBox Name="Box" IsReadOnly="True"  />
     </Grid>
 </UserControl>
