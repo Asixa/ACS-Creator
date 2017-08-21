@@ -11,16 +11,28 @@
              Drop="NewFile_Drop"
              >
     <Grid>
+        
         <avalonEdit:TextEditor x:Name="Editor"
-			Background="#FF1E1E1E" 
-			LineNumbersForeground="#FF007ACC"  
-			ShowLineNumbers="True" 
-			HorizontalScrollBarVisibility="Auto" 
-			VerticalScrollBarVisibility="Auto"
-			Foreground="White"
-			SyntaxHighlighting="ACS" KeyDown="Editor_KeyDown" KeyUp="Editor_KeyUp" PreviewMouseWheel="Editor_PreviewMouseWheel" FontFamily="Consolas" FontSize="18"/>
-
+                               Background="#FF1E1E1E" 
+                               LineNumbersForeground="#FF007ACC"  
+                               ShowLineNumbers="True" 
+                               HorizontalScrollBarVisibility="Auto" 
+                               VerticalScrollBarVisibility="Auto"
+                               Foreground="White"
+                               SyntaxHighlighting="ACS" KeyDown="Editor_KeyDown" KeyUp="Editor_KeyUp" PreviewMouseWheel="Editor_PreviewMouseWheel" FontFamily="Consolas" FontSize="18" TextChanged="Editor_TextChanged"/>
         <FindReplace:FindReplaceDialog Visibility="Hidden" x:Name="Search" HorizontalAlignment="Right" Height="139" VerticalAlignment="Top" Width="243" Background="#FF2D2D30"/>
+       
+        <!--<avalonEdit:TextEditor x:Name="Overview"
+                              
+            ForceCursor="False"
+            Background="#FF1E1E1E" 
+            LineNumbersForeground="#FF007ACC"  
+            HorizontalScrollBarVisibility="Auto" 
+            VerticalScrollBarVisibility="Auto"
+            Foreground="White"
+            IsReadOnly="True"
+            SyntaxHighlighting="ACS" KeyDown="Editor_KeyDown" KeyUp="Editor_KeyUp" PreviewMouseWheel="Editor_PreviewMouseWheel" FontFamily="Consolas" FontSize="1" HorizontalAlignment="Right" Width="148"/>-->
 
     </Grid>
 </UserControl>
+

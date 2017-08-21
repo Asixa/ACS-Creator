@@ -45,6 +45,9 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Mvvm.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
@@ -104,6 +107,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Components\Editor\FindReplace\FindReplaceDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Components\Editor\FindReplace\MyToggleButtom.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -670,6 +677,7 @@
     <Resource Include="Images\Undo.png" />
     <Resource Include="Images\WordWrap.png" />
     <Resource Include="Images\zen-icons-pen.png" />
+    <Resource Include="Images\165716c4fb73165.jpg" />
     <Content Include="Images\图片1.svg" />
     <Resource Include="Images\未标题-1-1.png" />
     <Content Include="Languages\zh-CN.xaml">
@@ -693,6 +701,9 @@
     <Compile Include="Components\Editor\Completion\MyCompletionData.cs" />
     <Compile Include="Components\Editor\FindReplace\FindReplaceDialog.xaml.cs">
       <DependentUpon>FindReplaceDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Editor\FindReplace\MyToggleButtom.xaml.cs">
+      <DependentUpon>MyToggleButtom.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\Editor\HighlightLine\HighlightCurrentLineBackgroundRenderer.cs" />
     <Compile Include="Components\ErrorList\ErrorList.xaml.cs">
@@ -724,6 +735,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Properties\Licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

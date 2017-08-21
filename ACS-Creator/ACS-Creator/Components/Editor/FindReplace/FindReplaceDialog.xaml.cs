@@ -53,6 +53,7 @@ namespace ACS.Creator.Components.Editor.FindReplace
             cbRegex.IsChecked = useRegex;
             cbWildcards.IsChecked = useWildcards;
             cbSearchUp.IsChecked = searchUp;
+
         }
 
         private void Window_Closed(object sender, System.EventArgs e)
@@ -181,19 +182,23 @@ namespace ACS.Creator.Components.Editor.FindReplace
             txtFind.Text = txtFind2.Text = _editor.SelectedText;
             Change(startwith);
         }
-
+		
         public void Change(int i)
         {
             if (i == 0)
             {
                 Find.Visibility=Visibility.Visible;
                 Replace.Visibility=Visibility.Hidden;
+	            Height = 65;
+				setting.Margin=new Thickness(0,27,0,0);
             }
             else
             {
                 Find.Visibility = Visibility.Hidden;
                 Replace.Visibility = Visibility.Visible;
-            }
+	            Height = 90;
+	            setting.Margin = new Thickness(0, 54, 0, 0);
+			}
         }
 
         public void hide_click(object sender, RoutedEventArgs e)

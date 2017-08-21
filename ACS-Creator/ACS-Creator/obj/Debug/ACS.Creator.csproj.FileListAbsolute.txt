@@ -190,3 +190,11 @@ F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS.Creator.csproj.Gener
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.g.cs
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.baml
 F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\FindReplaceDialog.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\DevExpress.Mvvm.v16.2.dll
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\DevExpress.Mvvm.v16.2.xml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\ACS Creator.exe.licenses
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\MyToggleButtom.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\Components\Editor\FindReplace\MyToggleButtom.baml

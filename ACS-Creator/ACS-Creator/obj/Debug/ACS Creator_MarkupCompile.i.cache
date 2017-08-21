@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\Debug\
 ACS.Creator
 none
 false
 DEBUG;TRACE
-F:\Github\ACS-Creator\ACS-Creator\ACS-Creator\App.xaml
-7-433851939
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\App.xaml
+81531646074
 2-1893803784
-19-1733492086
-26594621745
-Components\Editor\CodeField.xaml;Components\Editor\FindReplace\FindReplaceDialog.xaml;Components\ErrorList\ErrorList.xaml;Components\Output\Output.xaml;Components\ProjectView\ProjectManager.xaml;Languages\en-US.xaml;MainWindow.xaml;
+20-1232450370
+27-780984239
+Components\Editor\CodeField.xaml;Components\Editor\FindReplace\FindReplaceDialog.xaml;Components\Editor\FindReplace\MyToggleButtom.xaml;Components\ErrorList\ErrorList.xaml;Components\Output\Output.xaml;Components\ProjectView\ProjectManager.xaml;Languages\en-US.xaml;MainWindow.xaml;
 
-False
+True
 

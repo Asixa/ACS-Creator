@@ -33,7 +33,6 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS Creator\ICSharpCode.AvalonEdit\
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.xml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\bin\Debug\ICSharpCode.AvalonEdit.pdb
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref

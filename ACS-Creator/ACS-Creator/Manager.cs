@@ -15,6 +15,7 @@ namespace ACS.Creator
         public Manager()
         {
             instance = this;
+
         }
 
         public static void Instance_projectView()

@@ -5,6 +5,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:ACS.Creator"
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:Output="clr-namespace:ACS.Creator.Components.Output"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
         Style="{DynamicResource VSWindowStyleKey}"
         x:Class="ACS.Creator.MainWindow" 
         WindowStartupLocation="CenterScreen"
@@ -136,7 +137,7 @@
             <CheckBox/>
         </ToolBar>
 
-        <StatusBar Name="StatusBar" Height="23" DockPanel.Dock="Bottom" Background="#FF007ACC" >
+        <StatusBar x:Name="StatusBar" Height="23" DockPanel.Dock="Bottom" Background="#FF007ACC" >
             <StatusBarItem>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock x:Name="Status" Foreground="White" Width="245"><Run Text="就绪:"/></TextBlock>
@@ -186,9 +187,7 @@
                                     </Grid>
                                 </avalon:LayoutAnchorable>
                                 <avalon:LayoutAnchorable Title="属性" ContentId="Property" >
-                                    <Grid x:Name="shuxing">
-                                       
-                                    </Grid>
+                                    <Grid x:Name="shuxing"/>
                                 </avalon:LayoutAnchorable>
                             </avalon:LayoutAnchorablePane>
                         </avalon:LayoutAnchorablePaneGroup>
@@ -206,11 +205,11 @@
                             </avalon:LayoutAnchorablePane>
                         </avalon:LayoutAnchorablePaneGroup>
 
-                 
+
                     </avalon:LayoutPanel>
                 </avalon:LayoutRoot>
             </avalon:DockingManager>
-          </Grid>
 
+        </Grid>
     </DockPanel>
 </Controls:MetroWindow>

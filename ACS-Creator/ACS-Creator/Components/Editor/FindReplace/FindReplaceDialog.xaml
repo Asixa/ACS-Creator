@@ -7,42 +7,34 @@
              BorderBrush="DodgerBlue" BorderThickness="1"
              mc:Ignorable="d" 
         
-             Height="123.141" Width="310.991" >
+             Height="90" Width="310.991" >
     <Grid Margin="0,4">
-        <StackPanel>
-            <Grid Name="Find" Visibility="Visible" >
-                <TextBox Margin="3,0,63,0" Name="txtFind" Height="22" VerticalAlignment="Top" />
-                <Button Margin="0,0,33,0" HorizontalAlignment="Right" Width="25" Content="Find Next" Click="FindNextClick" Height="22" VerticalAlignment="Top" />
-                <Button Margin="0,0,3,0" HorizontalAlignment="Right" Width="25" Content="x" Height="22" Click="hide_click" VerticalAlignment="Top" />
-            </Grid>
-            <Grid Name="Replace"  Visibility="Hidden" Grid.ColumnSpan="2" Height="49" >
 
-                <!--<TextBlock Margin="3">Text to Find:</TextBlock>-->
-                <TextBox Margin="3,0,63,0" Name="txtFind2" Height="22" VerticalAlignment="Top" />
-                <!--<TextBlock Margin="3" Text="Replace with:" />-->
-                <TextBox Margin="3,24,63,0" Name="txtReplace" Height="22" VerticalAlignment="Top" />
-                <Button Margin="0,0,3,0" HorizontalAlignment="Right" Width="25" Content="x" Height="22" Click="hide_click" VerticalAlignment="Top" />
-                <Button Margin="0,0,33,0" HorizontalAlignment="Right" Width="25" Content="Find Next" Click="FindNext2Click" Height="22" VerticalAlignment="Top" />
-                <Button Margin="0,24,3,0" HorizontalAlignment="Right" Width="25" Content="Replace" Click="ReplaceClick" Height="22" VerticalAlignment="Top" />
-                <Button Margin="0,24,33,0" HorizontalAlignment="Right" Width="25" Content="Replace All" Click="ReplaceAllClick" Height="22" VerticalAlignment="Top" />
-            </Grid>
-            <Grid>
-                <CheckBox Grid.Column="0" Margin="0,0,102,0" 
+        <Grid Name="Find" Visibility="Hidden" Height="25" Margin="0,0,-0.2,0" VerticalAlignment="Top" >
+            <TextBox Margin="3,0,62.8,0" Name="txtFind" Height="25" VerticalAlignment="Top" FontSize="18" BorderBrush="#FF3399FF" BorderThickness="2" />
+            <Button Margin="0,0,33,0" ToolTip="Find Next" HorizontalAlignment="Right" Width="25" Content=" " Click="FindNextClick" Height="25" VerticalAlignment="Top" />
+            <Button Margin="0,0,3,0" ToolTip="Close" HorizontalAlignment="Right" Width="25" Content="X" Height="25" Click="hide_click" VerticalAlignment="Top" />
+            <Border BorderBrush="#FF3399FF" BorderThickness="1" Height="25" Margin="3,0,63,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Name="Replace"  Visibility="Visible" Height="52" Margin="0,0,-0.2,0" VerticalAlignment="Top" >
+            <!--<TextBlock Margin="3">Text to Find:</TextBlock>-->
+            <TextBox Margin="3,0,63,0" Name="txtFind2" Height="25" VerticalAlignment="Top" FontSize="18" />
+            <!--<TextBlock Margin="3" Text="Replace with:" />-->
+            <TextBox Margin="3,27,63,0" Name="txtReplace" Height="25" VerticalAlignment="Top"  FontSize="18"/>
+            <Button Margin="0,0,3,0" ToolTip="Close" HorizontalAlignment="Right" Width="25" Content="X" Height="25" Click="hide_click" VerticalAlignment="Top" />
+            <Button Margin="0,0,33,0" ToolTip="Find Next" HorizontalAlignment="Right" Width="25" Content=">" Click="FindNext2Click" Height="25" VerticalAlignment="Top" />
+            <Button Margin="0,27,3,0"  ToolTip="Replace" HorizontalAlignment="Right" Width="25" Content=" " Click="ReplaceClick" Height="25" VerticalAlignment="Top" />
+            <Button Margin="0,27,33,0" ToolTip="Replace All" HorizontalAlignment="Right" Width="25" Content=" " Click="ReplaceAllClick" Height="25" VerticalAlignment="Top" />
+            <Border BorderBrush="#FF3399FF" BorderThickness="1" Height="25" Margin="3,0,63,0" VerticalAlignment="Top"/>
+            <Border BorderBrush="#FF3399FF" BorderThickness="1" Height="25" Margin="3,27,63,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Name="setting" Margin="0,54,0,0">
+            <local:MyToggleButtom  x:Name="cbCaseSensitive" ToolTip="Match case" HorizontalAlignment="Right" Height="25" Margin="0,0,123,0" VerticalAlignment="Top" Width="25"  />
+            <local:MyToggleButtom  x:Name="cbWholeWord" ToolTip="Match whole word" HorizontalAlignment="Right" Height="25" Margin="0,0,93,0" VerticalAlignment="Top" Width="25"  />
+            <local:MyToggleButtom  x:Name="cbRegex" ToolTip="Regular Expression" HorizontalAlignment="Right" Height="25" Margin="0,0,63,0" VerticalAlignment="Top" Width="25"  />
+            <local:MyToggleButtom  x:Name="cbWildcards" ToolTip="Wildcards" HorizontalAlignment="Right" Height="25" Margin="0,0,33,0" VerticalAlignment="Top" Width="25"  />
+            <local:MyToggleButtom  x:Name="cbSearchUp" ToolTip="Search up" HorizontalAlignment="Right" Height="25" Margin="0,0,3,0" VerticalAlignment="Top" Width="25"  />
+        </Grid>
 
-                  Name="cbCaseSensitive" Content="Match case" IsChecked="true" HorizontalAlignment="Right" Width="137" Height="18" VerticalAlignment="Top" />
-                <CheckBox Grid.Column="0" Margin="0,23,102,0" 
-
-                  Name="cbWholeWord" Content="Match whole word" IsChecked="true" HorizontalAlignment="Right" Width="137" Height="18" VerticalAlignment="Top" />
-                <CheckBox Margin="0,0,9,0" 
-
-                  Name="cbRegex" Content="Regular Expression" HorizontalAlignment="Right" Width="88" Height="19" VerticalAlignment="Top" />
-                <CheckBox Margin="0,19,8,0" 
-
-                  Name="cbWildcards" Content="Wildcards" HorizontalAlignment="Right" Width="89" Height="18" VerticalAlignment="Top" />
-                <CheckBox Margin="0,37,10,0" 
-
-                  Name="cbSearchUp" Content="Search up" HorizontalAlignment="Right" Width="87" Height="20" VerticalAlignment="Top" />
-            </Grid>
-        </StackPanel>
     </Grid>
 </UserControl>

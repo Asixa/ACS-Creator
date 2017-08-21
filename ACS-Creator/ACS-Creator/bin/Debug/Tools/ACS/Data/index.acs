@@ -1,1 +1,3 @@
-﻿print("Hello,World");
+﻿[a];
+print(233);
+goto a;

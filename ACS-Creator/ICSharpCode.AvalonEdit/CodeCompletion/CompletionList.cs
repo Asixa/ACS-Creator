@@ -361,8 +361,7 @@ namespace ICSharpCode.AvalonEdit.CodeCompletion
 		
 		static bool CamelCaseMatch(string text, string query)
 		{
-			int i = 0;
-			foreach (char upper in text.Where(c => char.IsUpper(c))) {
+			int i = 0;foreach (char upper in text.Where(c => char.IsUpper(c))) {
 				if (i > query.Length - 1)
 					return true;	// return true here for CamelCase partial match ("CQ" matches "CodeQualityAnalysis")
 				if (char.ToUpper(query[i], CultureInfo.InvariantCulture) != upper)

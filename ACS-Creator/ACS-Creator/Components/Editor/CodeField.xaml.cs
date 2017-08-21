@@ -51,21 +51,26 @@ namespace ACS.Creator.Components.Editor
 
             // Selection option
             Editor.TextArea.SelectionCornerRadius = 0;
-            //Editor.TextArea.SelectionBrush = new SolidColorBrush(...);
-            //Editor.TextArea.SelectionBorder = new SolidColorBrush(...);
+		//	Editor.TextArea.SelectionBorder.Brush = (Brush)(new BrushConverter().ConvertFrom("#000000"));
+			//Editor.TextArea.SelectionBrush = new SolidColorBrush(...);
+			//Editor.TextArea.SelectionBorder = new SolidColorBrush(...);
 
-            // Selected line background
-            Editor.TextArea.Caret.PositionChanged += (sender, e) =>
+			// Editor.SyntaxHighlighting = HighlightingManager.Instance.GetDefinition("C#");
+
+			// Selected line background
+			Editor.TextArea.Caret.PositionChanged += (sender, e) =>
             Editor.TextArea.TextView.InvalidateLayer(KnownLayer.Background);
             Editor.TextArea.TextView.BackgroundRenderers.Add(
                 new HighlightCurrentLineBackgroundRenderer(Editor));
 
+    
         }
 
         private void TextArea_TextEntered(object sender, TextCompositionEventArgs e)
         {
             saved = false;
             host_panel.Title = host_panel_name + "*";
+
         }
 
         public void CheckFileType(string type)
@@ -415,7 +420,12 @@ namespace ACS.Creator.Components.Editor
         }
 
         private IList<ICompletionData> Add_data;
-  
+
+        private void Editor_TextChanged(object sender, EventArgs e)
+        {
+            //Overview.Text = Editor.Text;
+        }
+
         public List<SingleCompletion> Completions = new List<SingleCompletion>
         {
             new SingleCompletion("print","print(expression);\nPrint texts to the window"),
