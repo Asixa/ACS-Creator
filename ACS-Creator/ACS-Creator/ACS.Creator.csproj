@@ -405,7 +405,7 @@
     <Resource Include="Images\Redo.png" />
     <Resource Include="Images\run.png" />
     <Resource Include="Images\Save.png" />
-    <Resource Include="Images\SplashScreen.png" />
+    <None Include="Images\SplashScreen.png" />
     <Resource Include="Images\standard.png" />
     <Resource Include="Images\UI\add.png" />
     <Resource Include="Images\UI\addexception.png" />

@@ -11,6 +11,7 @@
             Manager.Instance_projectView();
             Manager.OpenOutputWindow();
             Manager.OpenErrorWindow();
+            Manager.CutTest();
         }
 
 

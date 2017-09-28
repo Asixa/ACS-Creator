@@ -15,7 +15,7 @@ namespace ACS.Creator
         public Manager()
         {
             instance = this;
-
+       
         }
 
         public static void Instance_projectView()
@@ -88,6 +88,19 @@ namespace ACS.Creator
             MainWindow.instance.StatusBar.Background = (Brush)(new BrushConverter().ConvertFrom(color));
         }
 
+       public static void CutTest(object sender=null, RoutedEventArgs e=null)
+        {
+            LayoutDocumentPane documentPane = new LayoutDocumentPane();
+            LayoutDocument document = new LayoutDocument();
+            document.Title = "document";
+
+            documentPane.Children.Add(document);
+
+            var first_document_pane = MainWindow.instance.DockManager.Layout.Descendents().OfType<LayoutDocumentPane>().FirstOrDefault();
+            var parent = (LayoutDocumentPaneGroup) first_document_pane.Parent;
+            parent.Children.Add(documentPane);
+   
+        }
 
     }
 }
