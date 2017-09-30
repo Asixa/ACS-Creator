@@ -6,6 +6,7 @@
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:ACS.Creator"
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:Output="clr-namespace:ACS.Creator.Components.Output"
         xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+         xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         Style="{DynamicResource VSWindowStyleKey}"
         x:Class="ACS.Creator.MainWindow" 
         WindowStartupLocation="CenterScreen"
@@ -147,7 +148,9 @@
         </StatusBar>
 
 
+
         <Grid Grid.Row="1">
+
             <avalon:DockingManager x:Name="DockManager"  Foreground="White" BorderBrush="White" AllowMixedOrientation="True" ForceCursor="True">
                 <avalon:DockingManager.Theme>
                     <avalon:Vs2013DarkTheme/>
@@ -209,7 +212,7 @@
                     </avalon:LayoutPanel>
                 </avalon:LayoutRoot>
             </avalon:DockingManager>
-
+     
         </Grid>
     </DockPanel>
 </Controls:MetroWindow>

@@ -3,6 +3,7 @@ using System.Windows;
 using ACS.Creator.Components.ProjectView;
 using Xceed.Wpf.AvalonDock.Layout;
 using System.Windows.Media;
+using ACS.Creator.Components.Editor;
 
 namespace ACS.Creator
 {
@@ -94,12 +95,19 @@ namespace ACS.Creator
             LayoutDocument document = new LayoutDocument();
             document.Title = "document";
 
+            var brower = new Webbrowser
+            {
+             mychrome =
+             {
+                 Address = "www.baidu.com"
+             }
+            };
+          
             documentPane.Children.Add(document);
-
-            var first_document_pane = MainWindow.instance.DockManager.Layout.Descendents().OfType<LayoutDocumentPane>().FirstOrDefault();
-            var parent = (LayoutDocumentPaneGroup) first_document_pane.Parent;
+            document.Content = brower;
+            var parent = (LayoutDocumentPaneGroup)MainWindow.instance.DockManager.Layout.Descendents().OfType<LayoutDocumentPane>().FirstOrDefault().Parent;
             parent.Children.Add(documentPane);
-   
+
         }
 
     }

@@ -61,4 +61,3 @@ F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.A
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb
 F:\Github\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
