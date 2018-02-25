@@ -1,4 +1,6 @@
-﻿namespace ACS.Creator
+﻿using System.Windows;
+
+namespace ACS.Creator
 {
     public partial class MainWindow
     {
@@ -7,14 +9,14 @@
         {
             instance = this;
             InitializeComponent();
-            Manager.New_code_field();
             Manager.Instance_projectView();
             Manager.OpenOutputWindow();
             Manager.OpenErrorWindow();
-            Manager.CutTest();
         }
 
 
-
+        private void NewProject_Menu_OnClick(object sender, RoutedEventArgs e)
+        {
+            Manager.OnNewProject();}
     }
 }

@@ -15,13 +15,11 @@ using System.Windows.Shapes;
 
 namespace ACS.Creator.Components.Editor
 {
-    /// <summary>
-    /// Webbrowser.xaml 的交互逻辑
+    /// <summary> Webbrowser.xaml 的交互逻辑
     /// </summary>
     public partial class Webbrowser : UserControl
     {
-        public Webbrowser()
-        {
+        public Webbrowser(){
             InitializeComponent();
         }
     }

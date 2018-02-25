@@ -4,7 +4,6 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Deb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\ACS Creator.pdb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.Core.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.dll
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.Wpf.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\ICSharpCode.AvalonEdit.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\MahApps.Metro.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\System.Windows.Interactivity.dll
@@ -17,8 +16,6 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Deb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\Xceed.Wpf.Toolkit.dll
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\ICSharpCode.AvalonEdit.pdb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\ICSharpCode.AvalonEdit.xml
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.Wpf.pdb
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.Wpf.xml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.pdb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.xml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\bin\x86\Debug\CefSharp.Core.pdb
@@ -41,7 +38,9 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Deb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\CodeField.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\FindReplace\FindReplaceDialog.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\FindReplace\MyToggleButtom.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\Webbrowser.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\ErrorList\ErrorList.g.cs
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\NewProject\NewProject.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Output\Output.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\ProjectView\ProjectManager.g.cs
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\MainWindow.g.cs
@@ -53,7 +52,9 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Deb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\CodeField.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\FindReplace\FindReplaceDialog.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\FindReplace\MyToggleButtom.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\Webbrowser.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\ErrorList\ErrorList.baml
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\NewProject\NewProject.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Output\Output.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\ProjectView\ProjectManager.baml
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\MainWindow.baml
@@ -61,7 +62,6 @@ E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Deb
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS.Creator.Properties.Resources.resources
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS.Creator.csproj.GenerateResource.Cache
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS Creator.exe.licenses
+E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS.Creator.csproj.CoreCompileInputs.cache
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS Creator.exe
 E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\ACS Creator.pdb
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\Webbrowser.g.cs
-E:\Programing\Github\ACS-Creator\ACS-Creator\ACS-Creator\ACS-Creator\obj\x86\Debug\Components\Editor\Webbrowser.baml

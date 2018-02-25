@@ -34,6 +34,8 @@ namespace ACS.Creator.Components.Editor
         public string host_panel_name;
         private bool saved = false;
 
+        public string Code_Class="ACS";
+
         public CodeField()
         {
             InitializeComponent();
@@ -335,14 +337,14 @@ namespace ACS.Creator.Components.Editor
         }
 
 
-        private void Save_file()
+        public void Save_file()
         {
             holding_control = holding_shift = false;
-            if (file_path != "")
-            {
+            if (file_path != ""){
                 saved = true;
                 host_panel.Title = host_panel_name;
                 Editor.Save(file_path);
+                return;
                 //((MainWindow)Application.Current.MainWindow).
                 //    SetStatusBar(" 保存文件:" + System.IO.Path.GetFileName(filePath));
             }
@@ -362,8 +364,7 @@ namespace ACS.Creator.Components.Editor
                 };
 
                 if (sfd.ShowDialog() == true)
-                {
-                    saved = true;
+                {saved = true;
                     file_path = sfd.FileName;
                     host_panel.Title = Path.GetFileName(file_path);
                     host_panel_name = host_panel.Title;
@@ -376,9 +377,14 @@ namespace ACS.Creator.Components.Editor
         }
 
         private bool code_running=false;
-        public void run_code()
-        {
+        public void run_code(){
             if(code_running)return;
+
+            if (Code_Class == "HTML")
+            {
+                Save_file();
+                Editor.Save(file_path);Manager.PreviewWebpage(file_path);return;
+            }
             
             if (file_path == "")
             {

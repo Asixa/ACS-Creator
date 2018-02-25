@@ -6,7 +6,6 @@
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" xmlns:local="clr-namespace:ACS.Creator"
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:Output="clr-namespace:ACS.Creator.Components.Output"
         xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
-         xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         Style="{DynamicResource VSWindowStyleKey}"
         x:Class="ACS.Creator.MainWindow" 
         WindowStartupLocation="CenterScreen"
@@ -46,7 +45,7 @@
                 <MenuItem Header="新建">
                     <MenuItem x:Name="NewFile" Header="代码/文档" />
                     <Separator/>
-                    <MenuItem Header="新建项目？不可能的"/>
+                    <MenuItem Name="NewProject_Menu" Click="NewProject_Menu_OnClick" Header="新建项目"/>
 
                 </MenuItem>
                 <MenuItem Header="打开">
